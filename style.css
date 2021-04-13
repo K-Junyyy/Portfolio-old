@@ -61,3 +61,10 @@ ul{
     border: 3px solid powderblue;
     border-radius: 10px;
 }
+
+/*깃허브 contribution graph*/
+.github_contribution_graph{
+    width:500px;
+    margin:auto;
+    padding-bottom: 30px;
+}
