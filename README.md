@@ -1,4 +1,2 @@
 # Portfolio
-portfolio site
-
-## [PORTFOILO SITE](https://github.com/K-Junyyy/Portfolio/Portfolio/main.html)
+## [PORTFOILO SITE](https://k-junyyy.github.io/Portfolio/Portfolio/main.html)
