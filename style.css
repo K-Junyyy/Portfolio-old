@@ -1,0 +1,63 @@
+body{
+    text-align: center;
+    background-color: #f5f6f7;
+}
+p{
+    font-family:'맑은 고딕';
+    font-weight: bolder;
+}
+a{
+    color: black;
+    text-decoration-line: none;
+}
+h1{
+    font-size: 50px;
+}
+ul{
+    text-align: left;
+    font-weight: bolder;
+}
+
+/*프로젝트 설명*/
+.explain{
+    width: 630px;
+    margin: auto;
+}
+
+/*디스플레이 모드 선택*/
+.display_mode{
+    margin: 0px;
+}
+.display_mode_btn{
+    width: 100px;
+    font-weight: bolder;
+    border:1px solid skyblue;
+    background-color: rgba(0,0,0,0);
+    color: skyblue;
+    outline: none;
+    padding: 5px;
+}
+
+/*Info*/
+.info{
+    border-bottom: 1px solid gainsboro;
+}
+
+/*클릭 링크*/
+.click{
+    padding:5px;
+    font-weight: bolder;
+    border: 3px solid gray;
+    border-radius: 5px;
+}
+
+/*블로그&깃헙 링크*/
+.blog_github_link a{
+    display: block;
+    width:100px;
+    margin:auto;
+    font-weight: bolder;
+    font-size: 25px;
+    border: 3px solid powderblue;
+    border-radius: 10px;
+}
