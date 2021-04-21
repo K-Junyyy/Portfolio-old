@@ -1,17 +1,23 @@
+var Links = {
+    // 링크 색 바꾸기
+    SetColor:function(color){
+        // var alist = document.querySelectorAll('a');
+        // for(var i = 0; i < alist.length; i++)
+        //     alist[i].style.color = color;
+        $('a').css('color', color)
+    }
+}
+
 var Body = {
     // 바디 글자색 바꾸기
     SetColor:function(color){
-        document.querySelector('body').style.color = color;
+        //document.querySelector('body').style.color = color;
+        $('body').css('color', color)
     },
     // 바디 배경색 바꾸기
     SetBackgroundColor:function(color){
-    document.querySelector('body').style.backgroundColor = color;
-    },
-    // 링크 색 바꾸기
-    LinkSetColor:function(color){
-    var alist = document.querySelectorAll('a');
-    for(var i = 0; i < alist.length; i++)
-        alist[i].style.color = color;
+        //document.querySelector('body').style.backgroundColor = color;
+        $('body').css('backgroundColor', color)
     }
 }
 
@@ -21,13 +27,13 @@ function day_night_handler(self) {
     if (self.value == '화이트 모드') {
         Body.SetBackgroundColor('RGB(26,36,54)');
         Body.SetColor('white');
-        Body.LinkSetColor('powderblue')
+        Links.SetColor('powderblue')
         self.value = '다크 모드';
     }
     else {
         Body.SetBackgroundColor('white');
         Body.SetColor('black');
-        Body.LinkSetColor('black')
+        Links.SetColor('black')
         self.value = '화이트 모드';
     }
 }
