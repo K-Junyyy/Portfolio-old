@@ -4,12 +4,13 @@
 ### 2021-04-13 포트폴리오 웹페이지 개발 시작
 <img src="https://user-images.githubusercontent.com/74912530/114492595-d5e97e80-9c53-11eb-99d8-f4ca0f3ed103.png" width="auto" height="400px">
 
-<p> Info, Project 구현<br>
-<p> 화이트모드, 다크모드 기능 추가
+<p> Info, Project 구현</p>
+<p> 화이트모드, 다크모드 기능 추가</p>
 <br><br>
 
 ### 2021-04-21 업데이트
 <p> ToDo App 프로젝트 추가</p>
+<p> GitHub Contribution Graph 표시</p>
 <p> 사이트 이미지 로딩시간이 길다는 것을 인지(불필요한 태그 삭제, 구조 개선 필요)</p>
 <p> 기타 오타 수정</p>
 <br><br>
