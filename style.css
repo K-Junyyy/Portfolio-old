@@ -18,6 +18,7 @@ ul{
     font-weight: bolder;
 }
 
+
 /*프로젝트 설명*/
 .explain{
     width: 630px;
@@ -29,6 +30,7 @@ ul{
     margin: 0px;
 }
 .display_mode_btn{
+    margin: 20px;
     width: 100px;
     font-weight: bolder;
     border:1px solid skyblue;
@@ -67,4 +69,10 @@ ul{
     width:500px;
     margin:auto;
     padding-bottom: 30px;
+}
+
+/*Progress Bar*/
+.progress{
+    width:200px;
+    margin:auto;
 }
