@@ -66,9 +66,11 @@ ul{
 
 /*깃허브 contribution graph*/
 .github_contribution_graph{
-    width:500px;
     margin:auto;
     padding-bottom: 30px;
+}
+.calendar{
+    text-align: center;
 }
 
 /*Progress Bar*/
