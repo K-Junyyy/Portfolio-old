@@ -32,3 +32,10 @@
 
 * 모바일 view에서 GitHub Contribution Graph가 짤리는 현상 수정
 <br><br>
+
+### 2021-04-29 업데이트
+
+* 프로젝트 설명부분에 적용될 CSS 파일 추가(style_project.css) 
+* 버스정보조회 App 서비스 프로젝트 부분 업데이트
+<br><br>
+
